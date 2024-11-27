@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9;
+    color: #333;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-buttons {
+    margin-top: 15px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #004d40;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 0 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.header-buttons a:hover {
+    background-color: #26a69a;
+    transform: scale(1.1);
+}
+
+.catalogo {
+    padding: 30px;
+    text-align: center;
+}
+
+.burger-item {
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #b2dfdb;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.burger-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.burger-item h3 {
+    margin-top: 0;
+    color: #00796b;
+    font-size: 20px;
+}
+
+.burger-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.burger-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+button, .btn-enviar {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, .btn-enviar:hover {
+    background-color: #004d40;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
